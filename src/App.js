@@ -45,6 +45,10 @@ function App() {
   const checkCode = () => {
     if (result === "1995") {
       setLocked("Unlocked!");
+      setHide(false);
+      setTimeout(() => {
+        setHide(true);
+      }, 3000);
       setTries(0);
     } else if (tries === 2) {
       //hide the keypad
