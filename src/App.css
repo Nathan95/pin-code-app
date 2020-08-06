@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url("./assets/texturewoodwallgreen.jpg");
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+  margin: 0;
+}
+
+.pin-body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 254px;
+}
+.status {
+  background: black;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.shake {
+  animation: shudder 0.3s;
+}
+
+@keyframes shudder {
+  from {
+    background: black;
+  }
+  to {
+    background: red;
+  }
+}
+
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+}

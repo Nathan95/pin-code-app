@@ -1,0 +1,53 @@
+.button {
+  padding: 2.2rem;
+  border: none;
+  background: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-right: 1px;
+  margin-top: 2px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.button:hover {
+  background: #76d275;
+}
+
+.backAndClearButton {
+  padding: 1.2rem;
+  width: 49%;
+  border: none;
+  background: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-right: 1px;
+  margin-top: 2px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.backAndClearButton:hover {
+  background: #fbc02d;
+}
+
+.unlockButton {
+  padding: 1.2rem;
+  width: 100%;
+  border: none;
+  background: #76d275;
+  border: 1px solid black;
+  color: black;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-right: 1px;
+  margin-top: 2px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.unlockButton:hover {
+  background: #a5d6a7;
+}
